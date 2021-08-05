@@ -1,0 +1,48 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-list{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    border: 5px groove #1C6EA4;
+}
+
+.todo {
+    background-color: black;
+    color: white;
+    width: 45%;
+    text-align: center;
+    margin: 4px .25rem;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.todo.completed{
+    text-decoration: line-through;
+    opacity: .5;
+}
+
+
+button {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    font-size: 16px;
+    padding: 6px 14px;
+}
+
+input::placeholder{
+    color: grey;
+    opacity: 1
+}
+
+.clear-btn{
+    display: block;
+    margin: 16px auto 0px;
+}
